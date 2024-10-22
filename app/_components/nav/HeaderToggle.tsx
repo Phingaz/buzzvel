@@ -19,21 +19,21 @@ const HeaderToggle = ({ mobileNav, toggleMobileNav }: HeaderToggleProps) => {
           closed: { rotate: 0, y: 0 },
           open: { rotate: 45, y: 11 },
         }}
-        className="w-6 h-px bg-gray-400 block"
+        className="w-6 h-px bg-gray-700 block"
       ></motion.span>
       <motion.span
         variants={{
           closed: { opacity: 1 },
           open: { opacity: 0 },
         }}
-        className="w-6 h-px bg-gray-400 block"
+        className="w-6 h-px bg-gray-700 block"
       ></motion.span>
       <motion.span
         variants={{
           closed: { rotate: 0, y: 0 },
           open: { rotate: -45, y: -5 },
         }}
-        className="w-6 h-px bg-gray-400 block"
+        className="w-6 h-px bg-gray-700 block"
       ></motion.span>
     </motion.button>
   );

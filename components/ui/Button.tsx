@@ -13,16 +13,16 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const getButtonClasses = (variant: ButtonVariant, size: ButtonSize): string => {
   const baseClasses =
-    "inline-flex items-center border border-[2px] justify-center rounded-md text-sm transition-all duration-300 ease-in-out";
+    "inline-flex items-center border border-[2px] justify-center rounded-full text-sm transition-all duration-300 ease-in-out";
 
   const variantClasses = {
     primary:
-      "font-bold rounded-full border-main text-main hover:bg-main hover:text-secondary-light hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
+      "font-bold border-main text-main hover:bg-main hover:text-secondary-light hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
     secondary:
-      "font-bold rounded-full border-secondary-light text-secondary-light hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)];",
+      "font-bold border-secondary-light text-secondary-light hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)];",
   };
 
-  const sizeClasses = { default: "h-10 py-2 px-4" };
+  const sizeClasses = { default: "h-10 py-2 px-6" };
 
   return `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]}`;
 };

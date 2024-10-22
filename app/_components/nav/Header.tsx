@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Button } from "@/components/ui/Buttons";
+import { Button } from "@/components/ui/Button";
 import { navLinks } from "@/app/_constants/header";
 import { ArrowRight, Headphones } from "lucide-react";
 import useHeaderHook from "./Header.hook";
@@ -14,7 +14,9 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full ${active && "shadow-md bg-white"}`}
+      className={`sticky top-0 z-50 w-full ${active && "shadow-md bg-white"} ${
+        mobileNav && "bg-white"
+      }`}
     >
       <div className="container flex items-center gap-8 justify-between lg:justify-start">
         <Link className="text-2xl font-bold" href="/">
@@ -76,7 +78,7 @@ const NavAside = ({ mobileNav = false, isMobile = false }) => {
       </Link>
       <Button className="w-fit">
         Request a Quote
-        <ArrowRight className="ml-2 h-4 w-4" />
+        <ArrowRight className="ml-4 -mr-2 h-4 w-4" />
       </Button>
     </div>
   );

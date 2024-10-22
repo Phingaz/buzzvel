@@ -11,7 +11,7 @@ const useHeaderHook = () => {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      setActive(window.scrollY > 300);
+      setActive(window.scrollY > 100);
     };
     window.addEventListener("scroll", handleScroll);
     return () => {

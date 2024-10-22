@@ -1,10 +1,11 @@
 import Header from "./_components/nav/Header";
+import Hero from "./_components/sections/Hero";
 
 export default function Home() {
   return (
-    <main className=" ">
+    <main>
       <Header />
-      <section className="min-h-[200svh] bg-red-50">qwe</section>
+      <Hero />
     </main>
   );
 }
