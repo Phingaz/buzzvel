@@ -8,6 +8,7 @@
   --main-dark: #a252ee;
   --secondary: #fbbf24;
   --secondary-orange: #d97706;
+  --secondary-bright-orange: #f59e0b;
   --secondary-orange-dark: #78350f;
   --secondary-light: #fcd34d;
   --blue-text: #0369a1;
@@ -25,7 +26,11 @@ body {
 }
 
 @layer components {
+  .container-padding {
+    @apply px-4 lg:px-[80px];
+  }
+
   .container {
-    @apply mx-auto px-4  lg:px-[80px] py-4 lg:py-6 max-w-[1920px];
+    @apply container-padding py-4 lg:py-6 mx-auto max-w-[1920px];
   }
 }

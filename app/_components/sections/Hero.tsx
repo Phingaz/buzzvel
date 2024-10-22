@@ -5,10 +5,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section id="hero">
+    <section id="hero" className="pb-20">
       <div className="flex h-full">
         <div className="flex-1 container pt-[300px] sm:pt-10">
-          <div className="flex flex-col gap-6 mb-14 lg:mb-20 text-center sm:text-left">
+          <div className="flex flex-col gap-6 mb-14 lg:mb-20 text-center sm:text-left container-padding">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-[700]">
               Get the Sun to <br /> Power Your Home
             </h1>

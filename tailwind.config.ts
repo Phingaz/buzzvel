@@ -14,6 +14,7 @@ const config: Config = {
         "main-dark": "var(--main-dark)",
         secondary: "var(--secondary)",
         "secondary-orange": "var(--secondary-orange)",
+        "secondary-bright-orange": "var(--secondary-bright-orange)",
         "secondary-orange-dark": "var(--secondary-orange-dark)",
         "secondary-light": "var(--secondary-light)",
         "blue-text": "var(--blue-text)",
