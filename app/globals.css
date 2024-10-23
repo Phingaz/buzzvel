@@ -21,16 +21,21 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer components {
-  .container-padding {
-    @apply px-4 lg:px-[80px];
+  .container-p {
+    @apply px-4 lg:px-[80px] py-4 lg:py-6;
   }
 
   .container {
-    @apply container-padding py-4 lg:py-6 mx-auto max-w-[1920px];
+    @apply mx-auto container-p py-4 lg:py-6 max-w-[1920px];
   }
 }
