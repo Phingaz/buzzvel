@@ -2,7 +2,7 @@
 
 import React from "react";
 
-type ButtonVariant = "primary" | "secondary";
+type ButtonVariant = "primary" | "secondary" | "icon";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
@@ -17,7 +17,8 @@ const getButtonClasses = (variant: ButtonVariant): string => {
     primary:
       "font-bold border-main text-main hover:bg-main hover:text-secondary-light hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
     secondary:
-      "font-bold border-secondary-light text-secondary-light hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)];",
+      "font-bold border-secondary-light text-secondary-light hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
+    icon: "h-8 w-8 bg-transparent border-secondary-light text-secondary-light rounded-full px-2 py-2 hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
   };
 
   return `${baseClasses} ${variantClasses[variant]}`;

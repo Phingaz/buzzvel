@@ -3,8 +3,9 @@ import Hero from "./_components/sections/Hero";
 import Product from "./_components/sections/Product";
 import Solutions from "./_components/sections/Solutions";
 import Features from "./_components/sections/Features";
-import Configure from "./_components/sections/Configure";
 import Footer from "./_components/nav/footer/Footer";
+import Bottom from "./_components/sections/Bottom";
+import Configure from "./_components/sections/Configure";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Solutions />
       <Features />
       <Configure />
+      <Bottom />
       <Footer />
     </main>
   );

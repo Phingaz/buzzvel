@@ -17,6 +17,44 @@ export const services = [
   },
 ];
 
+export const testimonials = [
+  {
+    content:
+      "Purus maecenas quis elit eu, aliquet. Tellus porttitor ut sollicitudin sit non fringilla. Quam nunc volutpat senectus neque eget amet pharetra, euismod. Tempus, nunc, molestie imperdiet curabitur commodo euismod.",
+    name: "Jane Cooper",
+    role: "10KWh",
+    avatar: "/landing/testimonials",
+  },
+  {
+    content:
+      "Vehicula sit sit pharetra bibendum ut risus accumsan. Purus, in metus, enim, ipsum morbi euismod pellentesque. Mattis pharetra accumsan eget est mi enim, id. Sit quam tortor eu tellus non, in euismod integer.",
+    name: "Ralph Edwards",
+    role: "32KWh",
+    avatar: "/landing/testimonials",
+  },
+  {
+    content:
+      "Hendrerit augue ut nec, senectus quis integer netus. Sagittis fusce rhoncus magnis habitant amet amet. Egestas amet habitasse amet ornare. Hendrerit augue ut nec, senectus. Mauris egestas feugiat leo vitae praesent neque, et.",
+    name: "Cameron Williamson",
+    role: "12KWh",
+    avatar: "/landing/testimonials",
+  },
+  {
+    content:
+      "Viverra lacus suspendisse elit, adipiscing orci, non turpis etiam sapien. Viverra blandit sem neque pretium. Duis enim semper fermentum consequat aenean libero. Blandit porta leo condimentum dolor, nisi, aliquet ante laoreet.",
+    name: "Courtney Henry",
+    role: "6KWh",
+    avatar: "/landing/testimonials",
+  },
+  {
+    content:
+      "Hendrerit ut nec, senectus quis integer netus. Sagittis fusce magnis habitant amet amet. Egestas amet habitasse amet risus tellus ornare. Hendrerit augue ut nec, senectus. Mauris egestas feugiat leo vitae praesent neque, et.",
+    name: "Cameron Williamson",
+    role: "12KWh",
+    avatar: "/landing/testimonials",
+  },
+];
+
 export const footerLinks = [
   {
     label: "Terms",
