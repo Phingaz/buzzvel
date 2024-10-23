@@ -18,10 +18,10 @@ const Configure = () => {
   } = useCarousel(testimonials.length);
 
   return (
-    <section id="configure" className="py-20 relative bg-main">
+    <section id="configure" className="section-padding relative bg-main">
       <div ref={containerRef} className="overflow-clip">
-        <div className="container py-0 flex justify-between items-center mb-20">
-          <div>
+        <div className="container py-0 flex flex-col md:flex-row md:justify-between items-center mb-20">
+          <div className="mb-6 md:mb-0 text-center md:text-left">
             <p className="text-base lg:text-xl text-secondary font-medium mb-2">
               Join other Sun harvesters
             </p>

@@ -5,11 +5,11 @@ import SectionHeaders from "../utils/SectionHeaders";
 
 const Features = () => {
   return (
-    <section id="services" className="pb-20">
-      <div className="grid place-content-center relative overflow-x-clip mt-32">
-        <div className="bg-secondary absolute lg:h-[650px] lg:w-[1000px] rounded-full -z-10 -right-[350px] top-[50px] transform -rotate-45"></div>
+    <section id="services" className="section-padding">
+      <div className="grid place-content-center relative overflow-x-clip md:mt-32">
+        <div className="bg-secondary absolute h-[500px] w-[800px] lg:h-[650px] sm:w-[1000px] rounded-full -z-10 md:-right-[450px] md:top-[100px] sm:-bottom-[1300px] sm:-right-[350px] -bottom-[1530px] -right-[450px] transform rotate-45"></div>
       </div>
-      <div className="flex gap-10 container">
+      <div className="flex gap-10 container flex-col md:flex-row">
         <div className="mb-12">
           <SectionHeaders
             title="System features"

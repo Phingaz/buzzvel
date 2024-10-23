@@ -7,8 +7,8 @@ const Bottom = () => {
   return (
     <section className="relative overflow-clip">
       <div className="bg-main-light flex flex-col justify-center items-center">
-        <div className="my-[80px] flex justify-between items-center border-rose-600">
-          <div className="mr-[240px]">
+        <div className="section-margin flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+          <div className="md:mr-[240px]">
             <p className="text-base lg:text-xl text-secondary font-medium mb-2">
               Get the Sun to power your home
             </p>

@@ -5,7 +5,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section id="hero" className="pb-20">
+    <section id="hero" className="section-padding">
       <div className="flex h-full">
         <div className="flex-1 container pt-[300px] sm:pt-10">
           <div className="flex flex-col gap-6 mb-14 lg:mb-20 text-center sm:text-left container-padding">

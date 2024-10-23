@@ -3,7 +3,7 @@ import React from "react";
 
 const Product = () => {
   return (
-    <section id="product" className="pb-20">
+    <section id="product" className="section-padding">
       <div className="text-center mb-[80px]">
         <p className="text-base lg :text-xl text-secondary-orange font-medium mb-2">
           No more waste

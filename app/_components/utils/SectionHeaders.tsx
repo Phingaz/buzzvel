@@ -8,7 +8,7 @@ type SectionHeadersProps = {
 
 const SectionHeaders = ({ title, heading, text }: SectionHeadersProps) => {
   return (
-    <div className="mb-[80px]">
+    <div className="mb-[80px] md:text-left text-center">
       <p className="text-base lg:text-xl text-secondary-orange font-medium mb-2">
         {title}
       </p>

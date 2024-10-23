@@ -33,35 +33,34 @@ export const CarouselBtns = ({
   );
 };
 
-export const CarouselCard = React.forwardRef<
-  HTMLLIElement,
-  TCarouselCardProps
->(({ index, currentCard, testimonial }, ref) => {
-  return (
-    <motion.li
-      ref={index === 0 ? ref : null}
-      transition={{ duration: 0.3 }}
-      animate={{ scale: currentCard ? 1.1 : 1 }}
-      className={`flex flex-col min-w-[360px] max-w-[360px] bg-white rounded-lg p-8 gap-4 ${
-        currentCard ? "mx-4" : ""
-      }`}
-    >
-      <p className="text-gray-600 mt-[110px]">{testimonial.content}</p>
-      <div className="flex items-center">
-        <Image
-          width={64}
-          height={64}
-          src={`${testimonial.avatar}/${index + 1}.svg`}
-          alt={testimonial.name}
-          className="rounded-full mr-3"
-        />
-        <div>
-          <h4 className="">{testimonial.name}</h4>
-          <p className="text-sm text-gray-500">{testimonial.role}</p>
+export const CarouselCard = React.forwardRef<HTMLLIElement, TCarouselCardProps>(
+  ({ index, currentCard, testimonial }, ref) => {
+    return (
+      <motion.li
+        ref={index === 0 ? ref : null}
+        transition={{ duration: 0.3 }}
+        animate={{ scale: currentCard ? 1.1 : 1 }}
+        className={`flex flex-col min-w-[360px] md:min-h-[442px] max-w-[360px] bg-white rounded-lg p-8 gap-4 ${
+          currentCard ? "mx-4" : ""
+        }`}
+      >
+        <p className="text-gray-600 mt-[110px]">{testimonial.content}</p>
+        <div className="flex items-center">
+          <Image
+            width={64}
+            height={64}
+            src={`${testimonial.avatar}/${index + 1}.svg`}
+            alt={testimonial.name}
+            className="rounded-full mr-3"
+          />
+          <div>
+            <h4 className="">{testimonial.name}</h4>
+            <p className="text-sm text-gray-500">{testimonial.role}</p>
+          </div>
         </div>
-      </div>
-    </motion.li>
-  );
-});
+      </motion.li>
+    );
+  }
+);
 
 CarouselCard.displayName = "CarouselCard";

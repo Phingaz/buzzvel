@@ -11,14 +11,14 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const getButtonClasses = (variant: ButtonVariant): string => {
   const baseClasses =
-    "inline-flex items-center border border-[2px] justify-center rounded-full text-sm transition-all duration-300 ease-in-out h-10 py-2 px-6";
+    "inline-flex items-center border border-[2px] justify-center rounded-full text-sm transition-all duration-300 ease-in-out h-10 text-lg";
 
   const variantClasses = {
     primary:
-      "font-bold border-main text-main hover:bg-main hover:text-secondary-light hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
+      "font-bold border-main text-main hover:bg-main hover:text-secondary-light hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] py-2 px-6",
     secondary:
-      "font-bold border-secondary-light text-secondary-light hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
-    icon: "h-8 w-8 bg-transparent border-secondary-light text-secondary-light rounded-full px-2 py-2 hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
+      "font-bold border-secondary-light text-secondary-light hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] py-2 px-6",
+    icon: "h-8 w-8 bg-transparent border-secondary-light text-secondary-light rounded-full p-2 hover:bg-secondary-light hover:text-secondary-orange-dark hover:shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]",
   };
 
   return `${baseClasses} ${variantClasses[variant]}`;
