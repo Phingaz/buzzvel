@@ -33,7 +33,7 @@ const Hero = () => {
               <Image
                 width={50}
                 height={50}
-                src="/hero/hero-user.png"
+                src="/landing/hero/hero-user.png"
                 alt="quote"
               />
               <span>
@@ -48,7 +48,7 @@ const Hero = () => {
           height={0}
           className="absolute top-0 right-0 w-[300px] md:w-[400px] lg:w-[500px] -z-10"
           alt="image"
-          src="/hero/hero.svg"
+          src="/landing/hero/hero.svg"
         />
       </div>
     </section>

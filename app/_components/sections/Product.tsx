@@ -20,7 +20,7 @@ const Product = () => {
         <div className="bg-main-light size-[150px] sm:size-[250px] md:size-[350px] lg:size-[450px] absolute rounded-full -z-10 -right-28 md:-right-[40px] -top-5 md:top-[40px]"></div>
         <Image
           alt="desktop image"
-          src="/desktop.svg"
+          src="/landing/desktop.svg"
           width={1200}
           height={800}
         />

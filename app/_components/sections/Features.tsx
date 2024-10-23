@@ -3,21 +3,19 @@ import Image from "next/image";
 import React from "react";
 import SectionHeaders from "../utils/SectionHeaders";
 
-const Solutions = () => {
+const Features = () => {
   return (
-    <section id="solutions" className="pb-20">
+    <section id="services" className="pb-20">
       <div className="grid place-content-center relative overflow-x-clip mt-32">
-        <div className="bg-main absolute lg:h-[650px] lg:w-[1000px] rounded-full -z-10 -left-[450px] top-[100px] transform -rotate-45"></div>
+        <div className="bg-secondary absolute lg:h-[650px] lg:w-[1000px] rounded-full -z-10 -right-[350px] top-[50px] transform -rotate-45"></div>
       </div>
       <div className="flex gap-10 pl-10 pr-20">
-        <Image src="/landing/mobile.svg" width={500} height={900} alt="hero" />
-        <div className="mb-12 grid place-content-center">
+        <div className="mb-12">
           <SectionHeaders
-            title="Services"
-            heading="Personalized services"
+            title="System features"
+            heading="Powerful features"
             text="Pretium lectus ultrices sit tempor, sit ullamcorper volutpat et et. Auctor turpis semper id sit ornare maecenas lectus sed."
           />
-
           <div className="grid grid-cols-2 gap-12">
             {services.map((service, i) => (
               <div key={i}>
@@ -29,9 +27,10 @@ const Solutions = () => {
             ))}
           </div>
         </div>
+        <Image src="/landing/mobile2.svg" width={500} height={900} alt="hero" />
       </div>
     </section>
   );
 };
 
-export default Solutions;
+export default Features;
