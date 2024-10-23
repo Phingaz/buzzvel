@@ -9,7 +9,7 @@ const Features = () => {
       <div className="grid place-content-center relative overflow-x-clip mt-32">
         <div className="bg-secondary absolute lg:h-[650px] lg:w-[1000px] rounded-full -z-10 -right-[350px] top-[50px] transform -rotate-45"></div>
       </div>
-      <div className="flex gap-10 pl-10 pr-20">
+      <div className="flex gap-10 container">
         <div className="mb-12">
           <SectionHeaders
             title="System features"
@@ -27,7 +27,13 @@ const Features = () => {
             ))}
           </div>
         </div>
-        <Image src="/landing/mobile2.svg" width={500} height={900} alt="hero" />
+        <Image
+          src="/landing/mobile2.svg"
+          width={500}
+          height={900}
+          alt="hero"
+          className="-mr-4"
+        />
       </div>
     </section>
   );

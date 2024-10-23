@@ -5,7 +5,7 @@ import React from "react";
 
 const Configure = () => {
   return (
-    <section id="configure" className="pb-20 relative overflow-clip">
+    <section id="configure" className="relative overflow-clip">
       <div className="bg-main-light flex flex-col justify-center items-center">
         <div className="my-[80px] flex justify-between items-center border-rose-600">
           <div className="mr-[240px]">

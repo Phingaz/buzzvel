@@ -9,8 +9,8 @@ const Solutions = () => {
       <div className="grid place-content-center relative overflow-x-clip mt-32">
         <div className="bg-main absolute lg:h-[650px] lg:w-[1000px] rounded-full -z-10 -left-[450px] top-[100px] transform -rotate-45"></div>
       </div>
-      <div className="flex gap-10 pl-10 pr-20">
-        <Image src="/landing/mobile.svg" width={500} height={900} alt="hero" />
+      <div className="flex gap-10 container">
+        <Image src="/landing/mobile.svg" width={500} height={900} alt="hero" className="-ml-4" />
         <div className="mb-12 grid place-content-center">
           <SectionHeaders
             title="Services"

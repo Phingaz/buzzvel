@@ -16,3 +16,18 @@ export const services = [
     text: "Congue mauris sem vel, urna viverra. Urna, nibh leo suscipit purus ut sed eros, consectetur viverra.",
   },
 ];
+
+export const footerLinks = [
+  {
+    label: "Terms",
+    href: "#",
+  },
+  {
+    label: "Privacy",
+    href: "#",
+  },
+  {
+    label: "Support",
+    href: "#",
+  },
+];
