@@ -12,7 +12,7 @@ export const CarouselBtns = ({
   arrayLength,
 }: TCarouselBtnsProps) => {
   return (
-    <div className="container mt-8 flex gap-6">
+    <div className="container mt-16 flex gap-6">
       <Button
         variant="icon"
         onClick={prevSlide}
