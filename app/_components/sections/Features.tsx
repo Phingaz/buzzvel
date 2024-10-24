@@ -18,13 +18,7 @@ const Features = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <motion.div
-          className="bg-secondary absolute h-[500px] w-[800px] lg:h-[650px] sm:w-[1000px] rounded-full -z-10 md:-right-[450px] md:top-[100px] sm:-bottom-[1300px] sm:-right-[350px] -bottom-[1530px] -right-[450px] transform rotate-45"
-          viewport={{ once: true }}
-          initial={{ scale: 0, opacity: 0, rotate: -45 }}
-          whileInView={{ scale: 1, opacity: 1, rotate: 45 }}
-          transition={{ duration: 1, delay: 0.2 }}
-        ></motion.div>
+        <div className="bg-secondary absolute h-[500px] w-[800px] lg:h-[650px] sm:w-[1000px] rounded-full -z-10 md:-right-[450px] md:top-[100px] sm:-bottom-[1300px] sm:-right-[350px] -bottom-[1530px] -right-[450px] transform rotate-45"></div>
       </motion.div>
       <div className="flex gap-10 container flex-col md:flex-row">
         <motion.div

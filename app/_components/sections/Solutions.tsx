@@ -21,13 +21,7 @@ const Solutions = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <motion.div
-          className="bg-main absolute h-[500px] w-[800px] lg:h-[650px] sm:w-[1000px] rounded-full -z-10 md:-left-[450px] md:top-[100px] sm:-bottom-[1300px] sm:-left-[350px] -bottom-[1530px] -left-[450px] transform -rotate-45"
-          viewport={{ once: true }}
-          initial={{ scale: 0, opacity: 0, rotate: 45 }}
-          whileInView={{ scale: 1, opacity: 1, rotate: -45 }}
-          transition={{ duration: 1, delay: 0.2 }}
-        ></motion.div>
+        <div className="bg-main absolute h-[500px] w-[800px] lg:h-[650px] sm:w-[1000px] rounded-full -z-10 md:-left-[450px] md:top-[100px] sm:-bottom-[1300px] sm:-left-[350px] -bottom-[1530px] -left-[450px] transform -rotate-45"></div>
       </motion.div>
       <div className="flex justify-center items-center md:justify-start md:items-start md:flex-row flex-col gap-10 container">
         <motion.div

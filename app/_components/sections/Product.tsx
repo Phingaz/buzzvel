@@ -47,20 +47,8 @@ const Product = () => {
         </motion.p>
       </motion.div>
       <div className="grid place-content-center relative overflow-x-clip">
-        <motion.div
-          viewport={{ once: true }}
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.9 }}
-          className="bg-secondary-bright-orange size-[300px] sm:size-[400px] md:size-[500px] lg:size-[600px] absolute rounded-full -z-10 -left-[200px] -top-[140px]"
-        ></motion.div>
-        <motion.div
-          viewport={{ once: true }}
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="bg-main-light size-[150px] sm:size-[250px] md:size-[350px] lg:size-[450px] absolute rounded-full -z-10 -right-28 md:-right-[40px] -top-5 md:top-[40px]"
-        ></motion.div>
+        <div className="bg-secondary-bright-orange size-[300px] sm:size-[400px] md:size-[500px] lg:size-[600px] absolute rounded-full -z-10 -left-[200px] -top-[140px]"></div>
+        <div className="bg-main-light size-[150px] sm:size-[250px] md:size-[350px] lg:size-[450px] absolute rounded-full -z-10 -right-28 md:-right-[40px] -top-5 md:top-[40px]"></div>
         <MotionImage
           viewport={{ once: true }}
           initial={{ opacity: 0, y: 20, scale: 0.8 }}
