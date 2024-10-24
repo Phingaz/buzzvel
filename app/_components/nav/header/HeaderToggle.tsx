@@ -12,6 +12,7 @@ const HeaderToggle = ({ mobileNav, toggleMobileNav }: HeaderToggleProps) => {
     <motion.button
       animate={mobileNav ? "open" : "closed"}
       className="flex flex-col justify-center items-center rounded-lg p-2 py-3 gap-[7px] lg:hidden"
+      aria-label="Toggle header navigation"
       onClick={toggleMobileNav}
     >
       <motion.span

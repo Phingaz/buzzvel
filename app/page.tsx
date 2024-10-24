@@ -9,7 +9,7 @@ import Configure from "./_components/sections/Configure";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative overflow-clip">
       <Header />
       <Hero />
       <Product />

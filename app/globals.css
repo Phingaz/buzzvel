@@ -40,10 +40,10 @@ body {
   }
 
   .container-p {
-    @apply px-4 py-0 lg:px-[80px] lg:py-6;
+    @apply px-4 lg:px-[80px];
   }
 
   .container {
-    @apply mx-auto container-p lg:py-6 max-w-[1920px];
+    @apply mx-auto container-p max-w-[1920px];
   }
 }

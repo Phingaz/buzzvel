@@ -18,7 +18,7 @@ export default function Header() {
         mobileNav && "bg-white"
       }`}
     >
-      <div className="container flex items-center gap-8 justify-between lg:justify-start">
+      <div className="container py-6 flex items-center gap-8 justify-between lg:justify-start">
         <Link className="text-2xl font-bold" href="/">
           soller
         </Link>

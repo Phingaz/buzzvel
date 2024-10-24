@@ -54,7 +54,7 @@ export const CarouselCard = React.forwardRef<HTMLLIElement, TCarouselCardProps>(
             className="rounded-full mr-3"
           />
           <div>
-            <h4 className="">{testimonial.name}</h4>
+            <p>{testimonial.name}</p>
             <p className="text-sm text-gray-500">{testimonial.role}</p>
           </div>
         </div>
